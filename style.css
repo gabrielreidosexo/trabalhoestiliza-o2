@@ -3,10 +3,11 @@
     padding: 0; 
     box-sizing: border-box; 
    } 
-   /* Estilos Gerais */ 
+   
    body { 
     font-family: Arial, sans-serif; 
     line-height: 1.6; 
+    background: #ff0000;
    } 
    header { 
     background-color: #f0f0f0; 
@@ -14,7 +15,7 @@
    .logo{ 
     width: 70px; 
     border-radius: 50%; 
-    border:solid 2px #f9aa33;
+    border:solid 2px #091f47;
     margin:20px; 
    } 
    .header-content { 
@@ -22,19 +23,19 @@
     justify-content: space-between;  align-items: center; 
    } 
    .barraDePesquisa { 
-    background-color: lightgreen; } 
+    background-color: rgb(183, 255, 183); } 
    .barraDePesquisa input[type="text"] {  padding: 5px; 
     width: 200px; 
    } 
    .barraDePesquisa button { 
     padding: 5px 10px; 
-    background-color: #333; 
+    background-color: #818181; 
     color: #fff; 
     border: none; 
     cursor: pointer; 
    } 
    .fraseDeImpacto { 
-    background-color: grey; 
+    background-color: #ff00f2; 
    } 
    nav ul { 
     list-style-type: none; 
@@ -48,7 +49,7 @@
     color: #333; 
    } 
    a:hover { 
-    color: #666;
+    color: #00c3ff;
    } 
    /*carrossel de promoções*/ 
    .promocoes { 
